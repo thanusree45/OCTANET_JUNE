@@ -70,8 +70,6 @@ function onTodoStatusChange(checkboxId, labelId) {
     let todoElement = document.getElementById(todoId);
     
     labelElement.classList.toggle("checked");
-
-    labelElement.classList.toggle("checked");
     
     if (checkboxElement.checked) {
         todoElement.classList.add("completed");
