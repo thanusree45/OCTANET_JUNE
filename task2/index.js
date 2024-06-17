@@ -67,8 +67,6 @@ addTodoButton.onclick = function() {
 function onTodoStatusChange(checkboxId, labelId) {
     let checkboxElement = document.getElementById(checkboxId);
     let labelElement = document.getElementById(labelId);
-    let todoElement = document.getElementById(todoId);
-    
     labelElement.classList.toggle("checked");
     
     if (checkboxElement.checked) {
